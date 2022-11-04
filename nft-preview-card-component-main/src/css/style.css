@@ -52,6 +52,19 @@ img{
 }
 .info .days-left{
     color: var(--primiry-soft);
+    display: flex;
+
+}
+.info .days-left::before{ 
+    content: '';
+    background-image: url(../images/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 5px;
+
 }
 .creator{ 
     display: flex;
