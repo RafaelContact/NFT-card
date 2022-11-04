@@ -28,21 +28,37 @@ img{
     color: var(--primiry-soft);
     font-size: 18px;
     font-weight: 300px;
+    line-height: 25px;
+    margin-bottom: 23px;
 }
 .info{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 23px ;
 }
 .info .price{
     color: var(--primary-medium);
+    display: flex;
+}
+.info .price::before{
+    content: '';
+    background-image: url(../images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 11px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
 }
 .info .days-left{
-    color: var(--primary-soft);
+    color: var(--primiry-soft);
 }
 .creator{ 
     display: flex;
     /* background-color: aqua; */
     align-items: center;
+    border-top: 1px solid var(--primary-medium);
+    padding-top: 10px;
 }
 .creator .avatar{
     max-width: 35px;
@@ -51,8 +67,8 @@ img{
     margin-right: 15px;
 }
 .creator .text{
-    color: var(--primary-soft);
+    color: var(--primiry-soft);
 }
 .creator .text .name{
-    color: #ffffff
+    color: #ffffff; 
 }
