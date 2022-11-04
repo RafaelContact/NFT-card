@@ -15,7 +15,7 @@ main{
     max-width: 350px;
     background-color: var(--neutral-medium);
     border-radius: 15px;
-    padding: 24px;
+    padding: 25px;
 }
 .image-link .image{
     width: 100%;
@@ -24,14 +24,28 @@ main{
 .image-link{
     position: relative;
     display: flex;
+    /* o flex faz o row e o strech por isso fica emcima */
 }
 .image-link::before{
+    /* display: none; */
     content: '';
     background-color: cyan;
     width: 100%;
     height: 100%;
     display: inline-block;
     position: absolute;
+    opacity: 0.4;
+    /* por ter ficado em cima da imagem, quando passar o mouse em cima ele aparece */
+    display: none;
+}
+.image-link::after{
+     content: '';
+     background: url(../images/icon-view.svg) no-repeat center;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     display: none;
+    /* por ter ficado em cima da imagem, quando passar o mouse em cima ele aparece */
 }
 .title-link .title{
    font-size: 22.5px;
