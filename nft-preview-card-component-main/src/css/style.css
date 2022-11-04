@@ -18,16 +18,18 @@ main{
 }
 img{
     width: 100%;
+    border-radius: 15px;
+
 }
 .title-link .title{
    font-size: 22.5px;
    color: #ffffff;
-   margin: 25px 0 20px 
+   margin: 18px 0 17px 
 }
 .about{
     color: var(--primiry-soft);
     font-size: 18px;
-    font-weight: 300px;
+    font-weight: 100px;
     line-height: 25px;
     margin-bottom: 23px;
 }
@@ -35,10 +37,12 @@ img{
     display: flex;
     justify-content: space-between;
     margin-bottom: 23px ;
+    font-weight: 800;
 }
 .info .price{
     color: var(--primary-medium);
     display: flex;
+    font-size: 16px;
 }
 .info .price::before{
     content: '';
@@ -53,6 +57,8 @@ img{
 .info .days-left{
     color: var(--primiry-soft);
     display: flex;
+    font-weight: 200;
+    font-size: 16px;
 
 }
 .info .days-left::before{ 
@@ -63,14 +69,14 @@ img{
     width: 15px;
     height: 100%;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
 
 }
 .creator{ 
     display: flex;
     /* background-color: aqua; */
     align-items: center;
-    border-top: 1px solid var(--primary-medium);
+    border-top: 1px solid var(--primiry-soft);
     padding-top: 10px;
 }
 .creator .avatar{
