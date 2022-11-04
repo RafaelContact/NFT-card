@@ -14,11 +14,45 @@ main{
     max-width: 350px;
     background-color: var(--neutral-medium);
     border-radius: 15px;
-    padding: 25px;
+    padding: 24px;
 }
 img{
     width: 100%;
 }
 .title-link .title{
-   
+   font-size: 22.5px;
+   color: #ffffff;
+   margin: 25px 0 20px 
+}
+.about{
+    color: var(--primiry-soft);
+    font-size: 18px;
+    font-weight: 300px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.info .price{
+    color: var(--primary-medium);
+}
+.info .days-left{
+    color: var(--primary-soft);
+}
+.creator{ 
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.creator .avatar{
+    max-width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.creator .text{
+    color: var(--primary-soft);
+}
+.creator .text .name{
+    color: #ffffff
 }
