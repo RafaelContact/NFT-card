@@ -38,6 +38,10 @@ main{
     /* por ter ficado em cima da imagem, quando passar o mouse em cima ele aparece */
     display: none;
 }
+.image-link:hover::before, 
+.image-link:hover::after{
+    display: block;
+}
 .image-link::after{
      content: '';
      background: url(../images/icon-view.svg) no-repeat center;
