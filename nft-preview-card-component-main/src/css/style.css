@@ -10,16 +10,16 @@ main{
     align-items: center;
 
 }
+
 .nft-card{
     max-width: 350px;
     background-color: var(--neutral-medium);
     border-radius: 15px;
     padding: 24px;
 }
-img{
+.image-link .image{
     width: 100%;
-    border-radius: 15px;
-
+    border-radius: 10px;
 }
 .title-link .title{
    font-size: 22.5px;
@@ -76,8 +76,8 @@ img{
     display: flex;
     /* background-color: aqua; */
     align-items: center;
-    border-top: 1px solid var(--primiry-soft);
-    padding-top: 10px;
+    border-top: 1px solid var(--neutral-soft);
+    padding-top: 15px;
 }
 .creator .avatar{
     max-width: 35px;
