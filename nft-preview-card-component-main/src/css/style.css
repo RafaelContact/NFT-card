@@ -8,6 +8,8 @@ main{
     justify-content: center;
     height: 100vh;
     align-items: center;
+    padding: 30px;
+    /* olhando no responsive vewer diferentes tamanhos de tale foi possível ver que uma tela de 360px estava muito próximo das bordas. */
 
 }
 
